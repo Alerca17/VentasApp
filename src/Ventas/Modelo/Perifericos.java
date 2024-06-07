@@ -2,7 +2,7 @@ package Ventas.Modelo;
 
 public class Perifericos {
 
-    private int codigo;
+    private final int codigo;
     private String nombre;
     private Monitor monitor;
     private Teclado teclado;
